@@ -8,7 +8,7 @@
 
     <style>
         body {
-    font-family: 'geosans', light;
+    font-family: 'Arial', sans-serif;
     background-color: #fff;
 }
 
@@ -25,7 +25,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-calendari {
+#calendari {
     margin:  0 auto;
     /* height: 330px; */
     /* width: 350px; */
@@ -36,7 +36,7 @@ table {
     border-collapse: collapse;
     table-layout: fixed;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
-    background-color: ##d3d3d3;
+    background-color: #fff;
     position: absolute;
 
 
@@ -52,7 +52,7 @@ th {
 }
 tr:first-child th {
     font-size: 20px;
-    font-weight: light;
+    font-weight: bold;
     border-left: none;
     border-top: none;
 }
@@ -66,11 +66,11 @@ th {
     background-color: #4682b4;
     color: #fff;
     text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
-    font-weight: light;
+    font-weight: normal;
 }
 th .any {
     font-size: 12px;
-    font-weight: light;
+    font-weight: normal;
     display: block;
     text-shadow: none;
     color: rgba(0,0,0,0.4);
@@ -95,11 +95,11 @@ td:nth-child(even)>span {
 }
 td:last-child>span,
 td:nth-child(6)>span {
-    color: #b0c4de;
+    color: #4682b4;
 }
 td.avui>span {
-    font-weight: light;
-    background-color: #b0c4de;
+    font-weight: bold;
+    background-color: #4682b4;
     color: #fff;
     border: 2px solid rgba(0,0,0,0.1);
 }
@@ -107,16 +107,16 @@ td.fora > span {
     opacity: 0.2;
 }
 td > span:hover {
-    background: #4682b4;
+    background: #a57cb6;
     color: #fff;
 }
 .boto-next, .boto-prev {
     background: rgba(0,0,0,0.1);
     color: #fff;
-    font-family: geosans;
+    font-family: inherit;
     border: none;
     font-size: 18px;
-    font-weight: light;
+    font-weight: bold;
     text-shadow: inherit;
     padding: 2px 10px 5px 10px;
     line-height: 1px;
@@ -139,7 +139,7 @@ button:focus { outline: none; }
 footer {
   text-align: center;
   color: #ddd;
-  font-weight: light;
+  font-weight: normal;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
   font-size: 0.8em;
   padding: 20px;
@@ -147,7 +147,7 @@ footer {
 
 footer a,
 footer a:link {
-  color: #b0c4de;
+  color: #fff;
   text-decoration: none;
 }
     </style>
